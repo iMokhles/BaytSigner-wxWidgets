@@ -9,6 +9,7 @@
 #include "BSApp.hpp"
 #include "BSView.hpp"
 
+
 bool BSApp::OnInit() {
     auto frame = new BSView;
     frame->Show(true);

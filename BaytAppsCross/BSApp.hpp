@@ -14,6 +14,7 @@
 #include <wx/wx.h>
 #endif
 
+
 class BSApp: public wxApp
 {
 public:
