@@ -14,13 +14,19 @@
 class BSView : public wxFrame {
 public:
     BSView();
-private:
+protected:
     
-    wxPanel* mainPanel;
+    wxBoxSizer* topSizer;
     wxTextCtrl* appleIdField;
     wxTextCtrl* passIdField;
+    
     wxRadioButton* signButton;
     wxStaticText* statusText;
+    
+    wxComboBox* appsBox;
+    wxComboBox* appsBox2;
+    
+    void setupLoginFields();
 };
 
 #endif /* BSFrame_hpp */

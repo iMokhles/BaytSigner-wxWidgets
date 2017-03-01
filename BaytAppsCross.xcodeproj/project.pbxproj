@@ -34,6 +34,7 @@
 		43A9B0291E6631E20006E928 /* BSView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BSView.hpp; sourceTree = "<group>"; };
 		43DDE9F81E66CDBD003F3D1E /* BSAPIHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSAPIHelper.cpp; sourceTree = "<group>"; };
 		43DDE9F91E66CDBD003F3D1E /* BSAPIHelper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BSAPIHelper.hpp; sourceTree = "<group>"; };
+		43DDE9FB1E66D414003F3D1E /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		43A9B01D1E662C330006E928 /* BaytAppsCross */ = {
 			isa = PBXGroup;
 			children = (
+				43DDE9FB1E66D414003F3D1E /* json.hpp */,
 				43A9B01E1E662C330006E928 /* main.cpp */,
 				43A9B0251E66316E0006E928 /* BSApp.cpp */,
 				43A9B0261E66316E0006E928 /* BSApp.hpp */,
@@ -221,6 +223,7 @@
 					"-lwx_baseu_xml-3.0",
 					"-lwx_baseu_net-3.0",
 					"-lwx_baseu-3.0",
+					"-lcurl",
 				);
 				SDKROOT = macosx;
 			};
@@ -296,6 +299,7 @@
 					"-lwx_baseu_xml-3.0",
 					"-lwx_baseu_net-3.0",
 					"-lwx_baseu-3.0",
+					"-lcurl",
 				);
 				SDKROOT = macosx;
 			};

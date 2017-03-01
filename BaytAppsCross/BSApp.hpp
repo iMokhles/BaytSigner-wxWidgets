@@ -9,9 +9,10 @@
 #ifndef BSApp_hpp
 #define BSApp_hpp
 
-#pragma once
-
+#include <wx/wxprec.h>
+#ifndef WX_PRECOMP
 #include <wx/wx.h>
+#endif
 
 class BSApp: public wxApp
 {
