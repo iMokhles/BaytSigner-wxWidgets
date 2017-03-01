@@ -13,12 +13,18 @@
 #include <wx/stdpaths.h>
 #include <wx/filename.h>
 
-#define wxID_BUTTONSEND 1003
+#define frameWidth 400
+#define frameHeight 400
+
+
+
 
 BSView::BSView()
 : wxFrame(NULL, wxID_ANY, "BaytSigner")
 {
-    
+    this->SetSize(frameWidth, frameHeight);
+    SetMinSize(GetSize());
+    SetMaxSize(GetSize());
     
     // add device connection field
     

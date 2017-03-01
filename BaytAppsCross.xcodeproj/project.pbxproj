@@ -10,6 +10,7 @@
 		43A9B01F1E662C330006E928 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43A9B01E1E662C330006E928 /* main.cpp */; };
 		43A9B0271E66316E0006E928 /* BSApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43A9B0251E66316E0006E928 /* BSApp.cpp */; };
 		43A9B02A1E6631E20006E928 /* BSView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43A9B0281E6631E20006E928 /* BSView.cpp */; };
+		43DDE9FA1E66CDBD003F3D1E /* BSAPIHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43DDE9F81E66CDBD003F3D1E /* BSAPIHelper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		43A9B0261E66316E0006E928 /* BSApp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BSApp.hpp; sourceTree = "<group>"; };
 		43A9B0281E6631E20006E928 /* BSView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSView.cpp; sourceTree = "<group>"; };
 		43A9B0291E6631E20006E928 /* BSView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BSView.hpp; sourceTree = "<group>"; };
+		43DDE9F81E66CDBD003F3D1E /* BSAPIHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSAPIHelper.cpp; sourceTree = "<group>"; };
+		43DDE9F91E66CDBD003F3D1E /* BSAPIHelper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BSAPIHelper.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				43A9B0261E66316E0006E928 /* BSApp.hpp */,
 				43A9B0281E6631E20006E928 /* BSView.cpp */,
 				43A9B0291E6631E20006E928 /* BSView.hpp */,
+				43DDE9F81E66CDBD003F3D1E /* BSAPIHelper.cpp */,
+				43DDE9F91E66CDBD003F3D1E /* BSAPIHelper.hpp */,
 			);
 			path = BaytAppsCross;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				43A9B02A1E6631E20006E928 /* BSView.cpp in Sources */,
 				43A9B0271E66316E0006E928 /* BSApp.cpp in Sources */,
 				43A9B01F1E662C330006E928 /* main.cpp in Sources */,
+				43DDE9FA1E66CDBD003F3D1E /* BSAPIHelper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +184,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = (
@@ -254,7 +260,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
@@ -350,6 +356,7 @@
 				43A9B0241E662C340006E928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

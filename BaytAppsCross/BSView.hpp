@@ -20,7 +20,6 @@ private:
     wxTextCtrl* appleIdField;
     wxTextCtrl* passIdField;
     wxRadioButton* signButton;
-    
     wxStaticText* statusText;
 };
 
